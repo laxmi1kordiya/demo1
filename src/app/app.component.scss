@@ -1,0 +1,26 @@
+
+    .photo-section{
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     border-radius: 5px;
+     /* display: none; */
+     .tabdetail{
+         .all-project{
+             display: flex;
+             flex-wrap: wrap;
+             .block{
+                 &image{
+                     &details{
+                         &button{
+ 
+                         }
+                     }
+ 
+                 }
+             }
+ 
+         }
+ 
+     }
+ }

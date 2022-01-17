@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+#portfolio{
+margin-top: 0px;
+padding: 40px;
+    .portfolio-section{
+        .container {
+        max-width:1200px;
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+
+            .title h1{
+            font-size: 27px;
+            text-transform: uppercase;
+            margin: 20px;
+            
+            }
+                .text {
+                 font-size: 17px;
+                 font-weight: 100;
+                 margin: 0px auto;
+                 max-width: 500px;
+                 color: #666;
+
+                }
+            
+                 .ng-star-inserted {
+                    width: 31%;
+                    margin-top: 40px;
+                    padding: 5px 50px;
+                 }
+                    
+                   p{
+                        text-align: center;
+                        color: blue;
+                        margin: 46px -30px;
+                   }
+                
+.target_box{
+   .photo-section{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    /* display: none; */
+    .tabdetail{
+        .all-project{
+            display: flex;
+            flex-wrap: wrap;
+            .block{
+                &image{
+                    &details{
+                        &button{
+
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+    }
+}
+}
+        
+                   
+        }        
+    }    
+}
+
+
+                    
+                      
+                  
+                
+             
+                
+                
+                
+                
+    
+    
+    
+
+        
+       
+
+   

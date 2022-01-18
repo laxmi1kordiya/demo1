@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'webrex';
+//   retVal: any;
+
+// public GetTheme() {
+//   return this.retVal;
+// }
+
+//   public ChooseClass(val:number){
+//     if(val == 1){
+//       this.retVal ={"first":true,"second":false}
+//     }
+
+//     if(val == 2){
+//       this.retVal ={"first":false,"second":true}
+//     }
+//   }
 }

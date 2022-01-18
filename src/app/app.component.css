@@ -1,0 +1,102 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.container .tabdetail {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.container .tabdetail .block-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-end-start-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.container .tabdetail .block-p .tabdetail-image {
+  width: 40%;
+  text-align: left;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+.container .tabdetail .block-p .tabdetail-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  max-height: 360px;
+}
+
+.container .tabdetail .block-p .tabdetail-text {
+  width: 60%;
+  position: relative;
+  max-height: 360px;
+}
+
+.container .tabdetail .block-p .tabdetail-text.sky-blue {
+  background-image: -webkit-gradient(linear, right top, left top, from(#6ae9a4), to(#5bd5e3));
+  background-image: linear-gradient(-90deg, #6ae9a4, #5bd5e3);
+}
+
+.container .tabdetail .block-p .tabdetail-text.sky-blue .position-bg {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+
+.container .tabdetail .block-p .tabdetail-text .text {
+  text-align: left;
+  color: white;
+  padding: 36px 36px;
+}
+
+.container .tabdetail .block-p .tabdetail-text .text .text-title {
+  font-size: 37px;
+  font-weight: 400;
+}
+
+.container .tabdetail .block-p .tabdetail-text .text p {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.container .tabdetail .block-p .tabdetail-text .btn {
+  background: #ffffff50;
+  border: none;
+  border-radius: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 20px 30px;
+  position: absolute;
+  color: white;
+  right: 52px;
+  bottom: 26px;
+  list-style: none;
+}
+
+.container .tabdetail .block-p .tabdetail-text .btn:hover {
+  background: #0b1075;
+}
+/*# sourceMappingURL=app.component.css.map */

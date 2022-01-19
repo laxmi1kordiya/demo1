@@ -9,7 +9,7 @@
 #portfolio{
 margin-top: 0px;
 padding: 40px;
-    .portfolio-section{
+    
         .container {
         max-width:1200px;
         width: 100%;
@@ -32,22 +32,20 @@ padding: 40px;
             
             
             .ng-star-inserted {
-            width: 31%;
+            width: 75%;
             margin-top: 40px;
             padding: 5px 50px;
             
                     
-                   p{
-                        text-align: center;
-                        color: blue;
-                        margin: 46px -30px;
-                   }
-                }    
+                p{
+                text-align: center;
+                color: blue;
+                margin: 46px -30px;
+                }
+            }    
         }
         
-                   
-               
-    }    
+        
 }
 
 

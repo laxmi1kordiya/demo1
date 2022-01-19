@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ServiceComponent } from './app/service/service.component';
 import { PortfolioComponent } from './app/portfolio/portfolio.component';
 import { AllComponent } from './app/all/all.component';
+import { RotateComponent } from './app/rotate/rotate.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServiceComponent,
     PortfolioComponent,
-    AllComponent
+    AllComponent,
+    RotateComponent
   ],
   imports: [
     BrowserModule,

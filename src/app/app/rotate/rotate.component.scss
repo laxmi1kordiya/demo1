@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    margin: 12px;
+    .box1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: peru;
+    margin: 20px;
+    &:hover{
+        transform: rotate(45deg);
+    }
+    // transform: rotateZ(45deg);
+    // transform: translate();
+    }
+    .box2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background-color: peru;
+        margin: 20px;
+        &:hover{
+        transform: skew(30deg);
+
+        }
+
+    }
+    .box3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background-color: peru;
+        margin: 20px;
+        &:hover{
+        transform: rotateX(45deg);
+
+        }
+
+    }
+    .box4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background-color: peru;
+        margin: 20px;
+        &:hover{
+        transform: scale(1.5);
+
+        }
+
+    }
+    .box5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background-color: peru;
+        margin: 20px;
+        &:hover{
+        transform: rotate(45deg);
+        transform-origin: (20% 10%);
+        }
+
+    }
+    .box6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background-color: peru;
+        margin: 20px;
+        &:hover{
+            transform: translate(50px, 50px );
+        }
+    }
+    
+}

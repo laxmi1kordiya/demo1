@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+  .box{
+      width: 300px;
+      height: 300px;
+      background-image: url("../../../assets/images/l1.png");
+      border: 2px solid black;
+      border-radius: 50px;
+     &.redius{
+        &:hover{
+          background-image:repeating-linear-gradient(43deg, yellow, green 100px);
+        }
+
+      }
+     
+    }
+      .box1{
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 176px;
+        &.color{
+            background-image: linear-gradient(45deg, red, yellow);
+        }
+      }
+        .box2{
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+        &.shado{
+        
+          box-shadow: 2px 0px 5px 11px grey;
+          margin-bottom: 100px;
+      
+  
+        }
+       
+  }
+}
+  .box3{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    &.shado{
+    
+      box-shadow: 10px 10px 5px  grey inset ;
+      margin-bottom: 100px;
+  
+
+    } 
+  } 

@@ -12,6 +12,8 @@ import { JobsFairComponent } from './app/jobs-fair/jobs-fair.component';
 import { BorderComponent } from './cssproperty/border/border.component';
 import { PseudoComponent } from './pseudo/pseudo.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SelecterComponent } from './selecter/selecter.component';
+import { KeyfreamComponent } from './keyfream/keyfream.component';
 
 const appRoutes:Routes=[
   {path:'Home',component: AllComponent},
@@ -29,7 +31,9 @@ const appRoutes:Routes=[
     RotateComponent,
     JobsFairComponent,
     BorderComponent,
-    PseudoComponent
+    PseudoComponent,
+    SelecterComponent,
+    KeyfreamComponent
   ],
   imports: [
     BrowserModule,

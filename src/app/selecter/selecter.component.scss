@@ -1,0 +1,75 @@
+.container1{
+    *{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    li{
+        color: green;
+    }
+    div p{
+        background-color: yellow;
+    }
+    #para{
+        color: red;
+    }
+    div[class]{
+        color: blue;
+    }
+    div[class =para1]{
+        border: 1px solid red;
+    }
+    div[class^=par]{
+       border-radius: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    background-color: rgb(209, 202, 202);
+    div > p{
+        color: red;
+    }
+    span + p{
+        color: white;
+        background-color: red;
+    }
+    div ~ p{
+        color: blue;
+    }
+}
+.rows{
+    background-color: rgb(230, 202, 202);
+    div > p::before{
+       content: '(1)';
+    }
+    span + p::after{
+        content: '-span sibling p';
+     }
+}
+.att{
+    background-color: rgba(243, 239, 239, 0.815);
+    .att1{
+        
+        a[target]{
+            background-color: red;
+        }
+        a[target=_top]{
+            background-color: green;
+        }
+    }
+}
